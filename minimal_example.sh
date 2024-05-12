@@ -1,4 +1,5 @@
 python generate_explanations.py --exp_name resnet34_CUB_expert --checkpoint_path checkpoints/resnet34_CUB_expert.pth.tar --methods crp_300 --topk 300 --class_subset_file minimal.json
 python reduce_num_explanations.py --exp_name resnet34_CUB_expert --explanation_method zennit_crp_300 --reduction_method cpu_nmf --num_components 10 --skip_downsample --class_subset_file minimal.json
 python score_explanations.py --exp_name resnet34_CUB_expert --explanation_method zennit_crp_300 --layer_type conv_layers --class_subset_file minimal.json
+python score_explanations.py --exp_name resnet34_CUB_expert --explanation_method zennit_crp_300 --reduction_method cpu_nmf --num_components 10 --skip_downsample --layer_type conv_layers --class_subset_file minimal.json
 python feature_clusters.py --explanation_method zennit_crp_300 --reduction_method cpu_nmf --num_components 10 --skip_downsample --class_subset_file minimal.json
