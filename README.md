@@ -5,6 +5,8 @@ In the most recent version of the paper, we include data from a second annotator
 
 Check out our [Project Page](https://www.vision.caltech.edu/dcne/).
 
+![Fig1](./mq.png)
+
 ### Environment
 ```
 conda create -n "DCNE" python=3.10.10
