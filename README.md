@@ -41,3 +41,15 @@ bash ./minimal_example.sh
 ```
 wget https://data.caltech.edu/records/d2yyy-tt507/files/explanations.zip?download=1
 ```
+
+### Bibtex
+If you find our work or dataset useful in your research please consider citing our work.
+```
+@inproceedings{kondapaneni2024less,
+  title={Less is More: Discovering Concise Network Explanations},
+  author={Kondapaneni, Neehar and Marks, Markus and Mac Aodha, Oisin and Perona, Pietro},
+  booktitle={ICLR 2024 Workshop on Representational Alignment},
+  year={2024}
+  doi={https://doi.org/10.48550/arXiv.2405.15243}
+}
+```
